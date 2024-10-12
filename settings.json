@@ -1,0 +1,20 @@
+{
+    "window.commandCenter": 1,
+    "go.toolsManagement.autoUpdate": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/*.bak": true,
+        "**/*.diff": true,
+        "**/*.findresult": true,
+        "**/*.runresult": true,
+        "**/*.tmp": true,
+        "**/*conflicted copy*": true,
+        "cscope.*out*": true,
+        "files.proj": true,
+        "rsync.files": true
+    },
+    "explorer.excludeGitIgnore": true,
+    "git.openRepositoryInParentFolders": "always",
+    "editor.suggest.preview": true,
+    "window.newWindowProfile": "Default"
+}
