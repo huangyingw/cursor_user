@@ -1,4 +1,5 @@
 {
+    "window.zoomLevel": 4,
     "window.commandCenter": 1,
     "go.toolsManagement.autoUpdate": true,
     "files.autoSave": "afterDelay",
@@ -6,10 +7,12 @@
         "**/*.bak": true,
         "**/*.diff": true,
         "**/*.findresult": true,
+        "**/*.log": true,
         "**/*.runresult": true,
         "**/*.tmp": true,
         "**/*conflicted copy*": true,
-        "cscope.*out*": true,
+        "**/cscope.*.out": true,
+        "**/cscope.out*": true,
         "files.proj": true,
         "rsync.files": true
     },
