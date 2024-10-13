@@ -1,0 +1,15 @@
+diff --git a/.gitconfig b/.gitconfig
+new file mode 100644
+--- /dev/null
++++ ./.gitconfig
+@@ -0,0 +1,8 @@
++[remote "origin"]
++    url = git@github.com:huangyingw/cursor_user.git 
++    fetch = +refs/heads/*:refs/remotes/origin/*
++[gsync]
++    remote = origin
++    target = 33b79c39c4ea379029fc77c03aaaca007d8aab9f
++[push]
++    remote = origin
+diff --git a/keybindings.json b/keybindings.json
+new file mode 100644
