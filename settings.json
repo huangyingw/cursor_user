@@ -19,5 +19,6 @@
     "explorer.excludeGitIgnore": true,
     "git.openRepositoryInParentFolders": "always",
     "editor.suggest.preview": true,
-    "window.newWindowProfile": "Default"
+    "window.newWindowProfile": "Default",
+    "redhat.telemetry.enabled": true
 }
