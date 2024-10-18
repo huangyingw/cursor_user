@@ -30,7 +30,7 @@ diff --git a/settings.json b/settings.json
      "window.commandCenter": 1,
      "go.toolsManagement.autoUpdate": true,
      "files.autoSave": "afterDelay",
-@@ -6,15 +7,18 @@
+@@ -6,15 +7,21 @@
          "**/*.bak": true,
          "**/*.diff": true,
          "**/*.findresult": true,
@@ -49,5 +49,8 @@ diff --git a/settings.json b/settings.json
      "editor.suggest.preview": true,
 -    "window.newWindowProfile": "Default"
 +    "window.newWindowProfile": "Default",
-+    "redhat.telemetry.enabled": true
++    "redhat.telemetry.enabled": true,
++    "vim.visualModeKeyBindings": [
++        
++    ]
  }
