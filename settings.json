@@ -20,5 +20,8 @@
     "git.openRepositoryInParentFolders": "always",
     "editor.suggest.preview": true,
     "window.newWindowProfile": "Default",
-    "redhat.telemetry.enabled": true
+    "redhat.telemetry.enabled": true,
+    "vim.visualModeKeyBindings": [
+        
+    ]
 }
