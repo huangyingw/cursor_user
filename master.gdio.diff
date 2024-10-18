@@ -11,5 +11,43 @@ new file mode 100644
 +    target = 33b79c39c4ea379029fc77c03aaaca007d8aab9f
 +[push]
 +    remote = origin
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null
++++ ./.gitignore
+@@ -0,0 +1,3 @@
++History/
++globalStorage/
++workspaceStorage/
 diff --git a/keybindings.json b/keybindings.json
 new file mode 100644
+diff --git a/settings.json b/settings.json
+--- ./settings.json
++++ ./settings.json
+@@ -1,4 +1,5 @@
+ {
++    "window.zoomLevel": 4,
+     "window.commandCenter": 1,
+     "go.toolsManagement.autoUpdate": true,
+     "files.autoSave": "afterDelay",
+@@ -6,15 +7,18 @@
+         "**/*.bak": true,
+         "**/*.diff": true,
+         "**/*.findresult": true,
++        "**/*.log": true,
+         "**/*.runresult": true,
+         "**/*.tmp": true,
+         "**/*conflicted copy*": true,
+-        "cscope.*out*": true,
++        "**/cscope.*.out": true,
++        "**/cscope.out*": true,
+         "files.proj": true,
+         "rsync.files": true
+     },
+     "explorer.excludeGitIgnore": true,
+     "git.openRepositoryInParentFolders": "always",
+     "editor.suggest.preview": true,
+-    "window.newWindowProfile": "Default"
++    "window.newWindowProfile": "Default",
++    "redhat.telemetry.enabled": true
+ }
