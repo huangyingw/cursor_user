@@ -24,8 +24,6 @@
     "editor.suggest.preview": true,
     "window.newWindowProfile": "Default",
     "redhat.telemetry.enabled": true,
-    "vim.visualModeKeyBindings": [
-        
-    ],
+    "vim.visualModeKeyBindings": [],
     "makefile.configureOnOpen": true
 }
