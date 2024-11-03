@@ -26,5 +26,6 @@
     "redhat.telemetry.enabled": true,
     "vim.visualModeKeyBindings": [
         
-    ]
+    ],
+    "makefile.configureOnOpen": true
 }
