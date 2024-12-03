@@ -25,5 +25,6 @@
     "window.newWindowProfile": "Default",
     "redhat.telemetry.enabled": true,
     "vim.visualModeKeyBindings": [],
-    "makefile.configureOnOpen": true
+    "makefile.configureOnOpen": true,
+    "cursor.general.gitGraphIndexing": "enabled"
 }
