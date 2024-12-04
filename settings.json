@@ -27,7 +27,5 @@
     "vim.visualModeKeyBindings": [],
     "makefile.configureOnOpen": true,
     "cursor.general.gitGraphIndexing": "enabled",
-    "cursor.composer.defaultMode": "agent",
-    "cursor.general.autoApproveAgentActions": true,
-    "cursor.general.autoApproveTerminalCommands": true
+    "cursor.composer.defaultMode": "agent"
 }
