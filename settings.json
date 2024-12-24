@@ -27,5 +27,6 @@
     "vim.visualModeKeyBindings": [],
     "makefile.configureOnOpen": true,
     "cursor.general.gitGraphIndexing": "enabled",
-    "cursor.composer.defaultMode": "agent"
+    "cursor.composer.defaultMode": "agent",
+    "terminal.integrated.defaultProfile.osx": "zsh"
 }
