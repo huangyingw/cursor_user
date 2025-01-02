@@ -17,6 +17,10 @@
         "**/cscope.small.files": true,
         "**/running.time": true,
         "files.proj": true,
+        "prunefix.conf": true,
+        "includefile.conf": true,
+        "prunefile.conf": true,
+        "prunefix.rsync": true,
         "rsync.files": true
     },
     "explorer.excludeGitIgnore": true,
