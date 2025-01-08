@@ -32,5 +32,6 @@
     "makefile.configureOnOpen": true,
     "cursor.general.gitGraphIndexing": "enabled",
     "cursor.composer.defaultMode": "agent",
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "cmake.showOptionsMovedNotification": false
 }
